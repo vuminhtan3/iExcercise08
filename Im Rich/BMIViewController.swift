@@ -36,9 +36,12 @@ class BMIViewController: UIViewController {
         weightView.layer.cornerRadius = 10
         ageView.layer.cornerRadius = 10
         
+        weightStepper.value = 50
+        ageStepper.value = 20
         heightLabel.text = "\(Int(heightSlider.value)) cm"
         weightLabel.text = "\(Int(weightStepper.value)) kg"
         ageLabel.text = "\(Int(ageStepper.value))"
+        
     }
     
     @IBAction func maleButtonPressed(_ sender: UIButton) {
