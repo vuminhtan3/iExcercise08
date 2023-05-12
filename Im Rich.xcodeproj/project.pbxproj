@@ -14,6 +14,8 @@
 		B44FA5302A0A85DF00CA2CE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44FA52F2A0A85DF00CA2CE1 /* Assets.xcassets */; };
 		B44FA5332A0A85DF00CA2CE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44FA5312A0A85DF00CA2CE1 /* LaunchScreen.storyboard */; };
 		B44FA53B2A0A943200CA2CE1 /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44FA53A2A0A943200CA2CE1 /* BMIViewController.swift */; };
+		B4BEBDE62A0C06860023977B /* BMIResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BEBDE52A0C06860023977B /* BMIResultViewController.swift */; };
+		B4BEBDE92A0D41C00023977B /* CalculateBMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BEBDE82A0D41C00023977B /* CalculateBMI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B44FA5322A0A85DF00CA2CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B44FA5342A0A85DF00CA2CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B44FA53A2A0A943200CA2CE1 /* BMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
+		B4BEBDE52A0C06860023977B /* BMIResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIResultViewController.swift; sourceTree = "<group>"; };
+		B4BEBDE82A0D41C00023977B /* CalculateBMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateBMI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +66,22 @@
 				B44FA5282A0A85DD00CA2CE1 /* SceneDelegate.swift */,
 				B44FA52A2A0A85DD00CA2CE1 /* IAmRichVC.swift */,
 				B44FA52C2A0A85DD00CA2CE1 /* Main.storyboard */,
-				B44FA53A2A0A943200CA2CE1 /* BMIViewController.swift */,
+				B4BEBDE72A0D40DB0023977B /* BMI ViewController */,
 				B44FA52F2A0A85DF00CA2CE1 /* Assets.xcassets */,
 				B44FA5312A0A85DF00CA2CE1 /* LaunchScreen.storyboard */,
 				B44FA5342A0A85DF00CA2CE1 /* Info.plist */,
 			);
 			path = "Im Rich";
+			sourceTree = "<group>";
+		};
+		B4BEBDE72A0D40DB0023977B /* BMI ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B44FA53A2A0A943200CA2CE1 /* BMIViewController.swift */,
+				B4BEBDE52A0C06860023977B /* BMIResultViewController.swift */,
+				B4BEBDE82A0D41C00023977B /* CalculateBMI.swift */,
+			);
+			path = "BMI ViewController";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4BEBDE62A0C06860023977B /* BMIResultViewController.swift in Sources */,
+				B4BEBDE92A0D41C00023977B /* CalculateBMI.swift in Sources */,
 				B44FA52B2A0A85DD00CA2CE1 /* IAmRichVC.swift in Sources */,
 				B44FA53B2A0A943200CA2CE1 /* BMIViewController.swift in Sources */,
 				B44FA5272A0A85DD00CA2CE1 /* AppDelegate.swift in Sources */,
