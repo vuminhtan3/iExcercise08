@@ -115,7 +115,7 @@ class BMIViewController: UIViewController {
             timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true, block: { _ in
                 if self.age > 1 && sender.state == .began{
                     self.age -= 1
-                    self.ageLabel.text = "\(self.age) kg"
+                    self.ageLabel.text = "\(self.age)"
                 } else if sender.state == .ended {
                     self.timer?.invalidate()
                 }
@@ -130,7 +130,7 @@ class BMIViewController: UIViewController {
             timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true, block: { _ in
                 if self.age < 120 && sender.state == .began{
                     self.age += 1
-                    self.ageLabel.text = "\(self.age) kg"
+                    self.ageLabel.text = "\(self.age)"
                 } else if sender.state == .ended {
                     self.timer?.invalidate()
                 }
