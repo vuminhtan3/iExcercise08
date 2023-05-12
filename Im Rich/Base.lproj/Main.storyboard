@@ -410,6 +410,12 @@
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="99T-7E-BuE" firstAttribute="leading" secondItem="HQ7-Ju-nBn" secondAttribute="leading" id="39A-W0-3up"/>
+                                    <constraint firstItem="99T-7E-BuE" firstAttribute="top" secondItem="HQ7-Ju-nBn" secondAttribute="top" id="D1o-cE-BIN"/>
+                                    <constraint firstItem="ujR-GY-WVm" firstAttribute="top" secondItem="99T-7E-BuE" secondAttribute="bottom" constant="30" id="EGv-ME-P0p"/>
+                                    <constraint firstAttribute="trailing" secondItem="99T-7E-BuE" secondAttribute="trailing" id="krO-iO-oa4"/>
+                                </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOUR RESULT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vRQ-Nh-fSl">
                                 <rect key="frame" x="10" y="69" width="260.33333333333331" height="48"/>
@@ -433,6 +439,7 @@
                         <outlet property="adviceLabel" destination="3mg-Ts-Hv4" id="hIh-mN-YaG"/>
                         <outlet property="bmiIndex" destination="tIT-ne-hkU" id="Uf7-7R-Weo"/>
                         <outlet property="resultLabel" destination="4hh-3y-mEI" id="6E3-lm-j2a"/>
+                        <outlet property="resultView" destination="99T-7E-BuE" id="MQe-mf-etK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pEE-j4-UQ0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

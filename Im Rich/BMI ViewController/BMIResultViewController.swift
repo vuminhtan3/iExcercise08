@@ -17,6 +17,7 @@ class BMIResultViewController: UIViewController {
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var bmiIndex: UILabel!
     @IBOutlet weak var adviceLabel: UILabel!
+    @IBOutlet weak var resultView: UIView!
     
     override func viewDidLoad() {
         resultLabel.text = result
@@ -24,6 +25,8 @@ class BMIResultViewController: UIViewController {
         adviceLabel.text = advice
         resultLabel.textColor = color
         bmiIndex.textColor = color
+        resultView.layer.cornerRadius = 10
+        resultView.clipsToBounds = true
     }
     
     @IBAction func reCalculatePressed(_ sender: UIButton) {
